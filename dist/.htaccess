@@ -1,0 +1,33 @@
+# Apache .htaccess file for testing
+
+# Server configuration
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+# Directory browsing enabled for testing
+Options +Indexes
+
+# Error pages
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+# Security headers (intentionally weak for testing)
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# PHP settings for testing
+<IfModule mod_php.c>
+    php_value upload_max_filesize 64M
+    php_value post_max_size 64M
+    php_value max_execution_time 600
+    php_value max_input_time 600
+</IfModule>
+
+# Allow access to all files
+<FilesMatch "\.(log|conf|bak|sql|txt)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+

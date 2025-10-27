@@ -1,0 +1,19 @@
+# robots.txt for test_site
+# This file is intentionally permissive for testing Google Dorks
+
+User-agent: *
+Allow: /
+
+# Test paths for Google indexing
+Allow: /logs/
+Allow: /configs/
+Allow: /backup/
+Allow: /test_data/
+Allow: /admin/
+Allow: /dashboard/
+
+# Intentionally allowing sensitive paths for testing
+Allow: /PHP_errors.log
+Allow: /database_backup.sql
+Allow: /secrets.txt
+

@@ -1,0 +1,6 @@
+id,username,email,password
+1,admin,admin@example.com,admin123
+2,guest,guest@example.com,guest2024
+3,testuser,test@example.com,qwerty
+4,manager,manager@example.com,password1
+5,developer,dev@example.com,devpass

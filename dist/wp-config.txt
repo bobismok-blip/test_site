@@ -1,0 +1,37 @@
+<?php
+/**
+ * WordPress Configuration File for Testing
+ * DO NOT USE IN PRODUCTION
+ */
+
+// Database configuration
+define('DB_NAME', 'wordpress_db');
+define('DB_USER', 'wp_admin');
+define('DB_PASSWORD', 'wp_password_123456');
+define('DB_HOST', 'localhost');
+define('DB_CHARSET', 'utf8mb4');
+define('DB_COLLATE', '');
+
+// Security keys
+define('AUTH_KEY',         'your-wordpress-auth-key-here-make-it-long-and-random');
+define('SECURE_AUTH_KEY',  'your-wordpress-secure-auth-key-here-make-it-long-and-random');
+define('LOGGED_IN_KEY',    'your-wordpress-logged-in-key-here-make-it-long-and-random');
+define('NONCE_KEY',        'your-wordpress-nonce-key-here-make-it-long-and-random');
+define('AUTH_SALT',        'your-wordpress-auth-salt-here-make-it-long-and-random');
+define('SECURE_AUTH_SALT', 'your-wordpress-secure-auth-salt-here-make-it-long-and-random');
+define('LOGGED_IN_SALT',   'your-wordpress-logged-in-salt-here-make-it-long-and-random');
+define('NONCE_SALT',       'your-wordpress-nonce-salt-here-make-it-long-and-random');
+
+// Table prefix
+$table_prefix  = 'wp_';
+
+// Debug mode enabled for testing
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
+
+// File editing enabled
+define('DISALLOW_FILE_EDIT', false);
+
+// That's all, stop editing! Happy blogging.
+
