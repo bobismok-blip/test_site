@@ -1,0 +1,6 @@
+Username	Email	Password	Phone
+admin	admin@example.com	admin123	+380501234567
+john.doe	john@example.com	password456	+380502345678
+jane.smith	jane@example.com	securepass789	+380503456789
+test.user	testuser@example.com	testpass321	+380504567890
+
