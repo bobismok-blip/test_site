@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://bobismok-blip.github.io/test_site/</loc></url>
-  <url><loc>https://bobismok-blip.github.io/test_site/file1.txt</loc></url>
-  <url><loc>https://bobismok-blip.github.io/test_site/config.ini</loc></url>
-  <url><loc>https://bobismok-blip.github.io/test_site/data.csv</loc></url>
-  <url><loc>https://bobismok-blip.github.io/test_site/test.xlsx</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/index.html</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/login.html</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/admin</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/backup</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/backup/secrets.txt</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/database_backup.sql</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/directory</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/directory/file1.txt</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/directory/config.ini</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/dashboard</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/configs</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/configs/site.conf</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/configs/ftp.conf</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/configs/database.conf</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/logs</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/logs/PHP_errors.log</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/logs/access.log</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/test_data</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/test_data/users.xls.txt</loc></url>
+  <url><loc>https://bobismok-blip.github.io/test_site/test_data/credentials.txt</loc></url>
 </urlset>
