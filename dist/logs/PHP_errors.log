@@ -1,0 +1,9 @@
+PHP Fatal error:  Call to undefined function undefined_function() in /var/www/html/index.php on line 15
+PHP Warning:  mysql_connect() expects parameter 2 to be a valid password in /var/www/html/config.php on line 3
+PHP Notice:  Undefined variable: username in /var/www/html/user.php on line 42
+PHP Deprecated:  mysql_real_escape_string() is deprecated in /var/www/html/admin.php on line 28
+PHP Error:  Maximum execution time exceeded in /var/www/html/cron.php on line 145
+[2024-01-15 10:23:15] PHP ERROR: Database connection failed - host: localhost, user: admin, password: admin123
+[2024-01-15 10:23:18] PHP WARNING: Failed to open stream: No such file or directory in /var/www/html/uploads/files.txt
+[2024-01-15 10:25:32] PHP NOTICE: session_start(): Session started with uninitialized session ID
+

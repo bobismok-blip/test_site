@@ -1,0 +1,6 @@
+127.0.0.1 - - [15/Jan/2024:10:15:32 +0200] "GET /admin HTTP/1.1" 200 4500 "http://example.com" "Mozilla/5.0"
+192.168.1.100 - - [15/Jan/2024:10:16:45 +0200] "POST /login HTTP/1.1" 302 0 "http://example.com/login" "Mozilla/5.0"
+127.0.0.1 - - [15/Jan/2024:10:18:12 +0200] "GET /config.php HTTP/1.1" 200 2341 "http://example.com" "Mozilla/5.0"
+192.168.1.100 - - [15/Jan/2024:10:20:33 +0200] "GET /backup/database.sql HTTP/1.1" 200 156789 "http://example.com/admin" "Mozilla/5.0"
+127.0.0.1 - - [15/Jan/2024:10:22:01 +0200] "POST /upload HTTP/1.1" 200 234 "http://example.com/uploads" "Mozilla/5.0"
+
